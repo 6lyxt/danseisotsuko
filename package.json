@@ -1,0 +1,17 @@
+{
+  "name": "danseisotsuko",
+  "version": "1.0.0",
+  "description": "a visual novel",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "lyxt",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

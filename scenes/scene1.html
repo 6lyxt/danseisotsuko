@@ -1,15 +1,21 @@
 <html>
-    <title>ecchiclubXX</title>
-    <script src="scripts/mainMenu.js"></script>
-    <link href="styles/menu.css" rel="stylesheet">
+    <title>Dansei Sotsuko! </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="../scripts/controls.js"></script>
+    <script src="../scripts/node_/configs.js"></script>
+    <link href="../styles/menu.css" rel="stylesheet">
     <body>
         <br><br>
-        <div class="gameArea">
+        
+        <div id="_gamearea" style="text-align: center;">
             <h1> ok </h1>
             <br><br>
-            <p onclick="loadGame()"> Load Game </p>
-            <p onclick="newGame()">Start new Game</p>
-            <a href="credits.html">Credits</a> 
+        </div>
+
+        <div class="controls" style="size: 50;">
+            <i class="material-icons"onclick="lastSlide();" style="opacity: 1;">skip_previous</i>
+            <i class="material-icons" id="_pausegame" onclick="pauseGame();" style="opacity: 1;">play_arrow</i>
+            <i class="material-icons"onclick="nextSlide();" style="opacity: 1;">skip_next</i>
         </div>
     </body>
 </html>

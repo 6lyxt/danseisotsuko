@@ -9,6 +9,13 @@
     }
   }
 
+.controls {
+  position: absolute;
+  background-color: lightcyan;
+  bottom: 5%;
+  margin-left: 48%;
+}
+
 body {
     background-image: url("img/bg.jpg");
     font-family: 'Rubik', sans-serif;
@@ -34,4 +41,8 @@ a {
     text-decoration: none;
     font-size: 16;
     color: black;
+}
+
+i {
+  cursor: pointer;
 }

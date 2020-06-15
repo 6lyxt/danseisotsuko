@@ -1,8 +1,8 @@
 function loadGame() {
-    window.location.href = "scenes/scene" + level.number + ".html";
+    window.location.href = "scenes/scene" + saveConfig() + ".html";
 }
 
 function newGame(){
-    level.number = 1;
+    //level.number = 1;
     loadGame();
 }
