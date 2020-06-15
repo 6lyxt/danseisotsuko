@@ -9,14 +9,14 @@ function pauseGame() {
 }
 
 function nextSlide() {
-    var slide = level.number + 1;
-    window.location.href = "scenes/scene" + slide;
-    level.number = level.number + 1;
+    var x = localStorage.getItem('level');
+    window.location.href = "scene" + x;
+    localStorage.setItem('level', parseInt(x) + 1)
 }
 
 function lastSlide() {
-    window.location.href = "scenes/scene" + parseInt(level.number) - 1;
-    //not saving because i dont think the user would want to reset his game status lol
+    var x = localStorage.getItem('level');
+    window.location.href = "scene" + (parseInt(x) - 1);
 }
 
 function pauseMenu() {

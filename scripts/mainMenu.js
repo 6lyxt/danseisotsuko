@@ -1,8 +1,12 @@
 function loadGame() {
-    window.location.href = "scenes/scene" + saveConfig() + ".html";
+    var x = localStorage.getItem('level');
+    if(x == null){
+        localStorage.setItem('level', '1');
+    }
+    window.location.href = "scenes/scene" + x + ".html";
 }
 
 function newGame(){
-    //level.number = 1;
+    localStorage.setItem('level', '1');
     loadGame();
 }
