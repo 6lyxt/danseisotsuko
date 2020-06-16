@@ -10,13 +10,13 @@ function pauseGame() {
 
 function nextSlide() {
     var x = localStorage.getItem('level');
-    window.location.href = "scene" + x;
     localStorage.setItem('level', parseInt(x) + 1)
+    window.location.href = "scene" + (parseInt(x) + 1) + ".html";
 }
 
 function lastSlide() {
     var x = localStorage.getItem('level');
-    window.location.href = "scene" + (parseInt(x) - 1);
+    window.location.href = "scene" + (parseInt(x) - 1) + ".html";
 }
 
 function pauseMenu() {
