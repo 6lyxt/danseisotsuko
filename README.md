@@ -1,4 +1,4 @@
-# danseisotsuko
+# Dansei Sotsuko
 a minecraft visual novel game
 
 ## What the hell is Dansei Sotsuko?
