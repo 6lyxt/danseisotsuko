@@ -1,5 +1,5 @@
 # Dansei Sotsuko
-a minecraft visual novel game
+a minecraft visual novel game [5% done]
 
 ## What the hell is Dansei Sotsuko?
 Dansei Sotsuko is a project I originally started for school and then
