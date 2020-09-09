@@ -1,4 +1,4 @@
-# Dansei Sotsuko
+# [Discontinued] Dansei Sotsuko
 a minecraft visual novel game [5% done]
 
 ## What the hell is Dansei Sotsuko?
